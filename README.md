@@ -1,14 +1,47 @@
 # pooImpressao
 
- ARQUIVO README - Trabalho de P.O.O.
-
 
 _____________________FUNCIONAMENTO DO SISTEMA______________________
 
-O sistema consiste em um atendimento de caixa que permite ao usuário escolher operações através de um menu interativo. O sistema se comunica com a impressora de cupom fiscal utilizando as funções disponíveis na biblioteca da Elgin, laços de repetição, estruturas de condição e funções personalizadas. 
+O sistema consiste em um atendimento de caixa que permite ao usuário escolher operações através de um menu interativo. O sistema se comunica com a impressora de cupom fiscal utilizando as funções disponíveis na biblioteca da Elgin, laços de repetição, estruturas de condição e funções personalizadas
 
-______________________________________________________________________________________________________________________________________
+_____________________COMO EXECUTAR______________________
 
+> 1. Abrindo o IntelliJ Community
+
+Abra o IntelliJ IDEA
+
+Clique em File > Open
+
+Selecione a pasta do projeto
+
+Aguarde o IntelliJ carregar a pasta
+
+> 2. Configurando o Projeto
+
+Certifique-se de que a biblioteca da Elgin (DLL) esteja devidamente configurada na pasta
+
+Verifique se a classe Main possui o método public static void main(String[] args), que é o ponto de entrada de um programa em Java, para iniciar o programa
+
+> 3. Rodando o Código
+
+Abra a classe Main.java
+
+Clique no ícone de Play ▶ ao lado do método main
+
+O menu do programa será exibido no console
+
+Siga as instruções digitando as opções desejadas
+
+> 4. Iniciando a Impressão
+
+Para realizar qualquer impressão, é obrigatório abrir a conexão com a impressora antes de chamar qualquer função de impressão
+
+No menu do sistema, escolha a opção desejada
+
+A impressaão será realizada, contanto que esteja tudo correto (conexão aberta, caminhos da pasta, etc)
+
+_____________________FUNÇÕES EXPLICADAS NO CÓDIGO______________________
 
 AbreConexaoImpressora()
 
@@ -149,10 +182,6 @@ int 	param )
 
 > Essa função recebe o XML de retorno da operação de cancelamento e os dados de assinatura do QRCode de venda, valida as informações, constrói o Danfe e realiza impressão de acordo com a especificação.
 
-
-______________________________________________________________________________________________________________________________________
-
+_____________________GRUPO______________________
 
 Alunos: Pedro, Murilo Zanni, Sophia Santana, João Vitor, Melyssa Pereira - 2TIMB
-
-Professor: Richard Spanhol
