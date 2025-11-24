@@ -7,23 +7,41 @@ O sistema consiste em um atendimento de caixa que permite ao usuário escolher o
 
 _____________________COMO EXECUTAR______________________
 
-> 1. Abrindo o IntelliJ Community
+> 1. Abrindo o GIT hub
+
+Abra o GitHub
+
+Faça login
+
+Acesse o projeto da pooImpressao
+
+Clique no botão verde <> Code
+
+Clique em Download ZIP para baixar o arquivo do código
+
+Na área de downloads dos seus arquivos procure pela pasta do projeto
+
+Clique na pasta com o botão direito do mouse
+
+Selecione a opção "Extrair tudo..."
+
+> 2. Abrindo o IntelliJ Community
 
 Abra o IntelliJ IDEA
 
 Clique em File > Open
 
-Selecione a pasta do projeto
+Selecione a pasta do projeto extraida
 
 Aguarde o IntelliJ carregar a pasta
 
-> 2. Configurando o Projeto
+> 3. Configurando o Projeto
 
 Certifique-se de que a biblioteca da Elgin (DLL) esteja devidamente configurada na pasta
 
 Verifique se a classe Main possui o método public static void main(String[] args), que é o ponto de entrada de um programa em Java, para iniciar o programa
 
-> 3. Rodando o Código
+> 4. Rodando o Código
 
 Abra a classe Main.java
 
@@ -33,7 +51,7 @@ O menu do programa será exibido no console
 
 Siga as instruções digitando as opções desejadas
 
-> 4. Iniciando a Impressão
+> 5. Iniciando a Impressão
 
 Para realizar qualquer impressão, é obrigatório abrir a conexão com a impressora antes de chamar qualquer função de impressão
 
