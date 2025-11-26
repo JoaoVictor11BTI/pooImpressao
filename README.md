@@ -202,4 +202,4 @@ int 	param )
 
 _____________________GRUPO______________________
 
-Alunos: Pedro, Murilo Zanni, Sophia Santana, João Vitor, Melyssa Pereira - 2TIMB
+Alunos: João Victor, Melyssa Pereira, Murilo Zanni, Pedro Henrique, Sophia Santana- 2TIMB
